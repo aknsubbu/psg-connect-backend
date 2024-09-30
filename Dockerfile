@@ -29,4 +29,4 @@ COPY . .
 EXPOSE 8000
 
 # Use the custom command to run the server, using $PORT if set, otherwise default to 8000
-CMD fastapi run server ${PORT:-8000}
+CMD fastapi run server.py

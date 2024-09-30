@@ -1,1 +1,1 @@
-web: fastapi run server $PORT
+web: fastapi run server
