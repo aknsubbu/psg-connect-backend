@@ -19,6 +19,14 @@ class Credentials(BaseModel):
     username: str
     password: str
 
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the PSG Connect API"}
+
+@app.get("/online")
+async def online():
+    return {"status": "online"}
+
 @app.post("/fetch_data")
 async def fetch_data(credentials: Credentials):
     try:
