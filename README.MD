@@ -1,6 +1,6 @@
 # PSG Connect FastAPI Backend
 
-![PSG Connect](./assets/icon.png)
+
 
 This project is a backend service built with FastAPI that provides web scraping functionality for PSG Connect. It offers a RESTful API for clients to fetch student data from the PSG Tech website.
 
